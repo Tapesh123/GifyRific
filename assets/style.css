@@ -1,0 +1,124 @@
+
+#search-input {
+  border: 5px solid grey;
+  /* background-color: yellowgreen; */
+
+  font-size:20px;
+}
+
+label{
+  font-size: 25px;
+  color: white;
+}
+
+#search-movie {
+  /* margin-right:-100px; */
+  border: 2px solid grey;
+  font-size:20px;
+}
+
+
+
+  form,
+  input {
+    margin: 10px;
+  } 
+
+  #buttons-view {
+    float: left;
+    margin: 0px;
+    padding: 20px;
+    margin-left: -12px;
+    display: inline;
+    margin: 10px;
+  }
+
+  #gifs-appear-here {
+    float: right;
+    margin-top: 0px;
+    margin-left: -100px;
+    display: inline-table;
+  }
+
+  .gif {
+  
+    font-weight: bold;
+    min-width:150px;
+    font-weight: bold;
+   
+  }
+
+  p{
+    color:white;
+    font-size:20px;
+  }
+
+  .container-fluid { 
+
+      
+        background: url("../images/bg.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    }
+  
+  /* Set height of the grid so .sidenav can be 100% (adjust if needed) */
+  .row.content {height: 1500px}
+    
+  /* Set gray background color and 100% height */
+  .sidenav {
+    background-color: black;
+    height: 100%;
+  }
+  
+  /* Set black background color, white text and some padding */
+  footer {
+    background-color: #555;
+    color: white;
+    padding: 15px;
+  }
+  
+  /* On small screens, set height to 'auto' for sidenav and grid */
+  @media screen and (max-width: 767px) {
+    .sidenav {
+      height: auto;
+      padding: 15px;
+    }
+    .row.content {height: auto;} 
+  }
+
+  .blink_me {
+    -webkit-animation-name: blinker;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    
+    -moz-animation-name: blinker;
+    -moz-animation-duration: 1s;
+    -moz-animation-timing-function: linear;
+    -moz-animation-iteration-count: infinite;
+    
+    animation-name: blinker;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@-moz-keyframes blinker {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
+@-webkit-keyframes blinker {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
+@keyframes blinker {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
